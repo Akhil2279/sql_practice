@@ -6,3 +6,7 @@ CREATE TABLE employee (
     department VARCHAR(50),
     hire_date DATE
 );
+
+
+ALTER TABLE employee
+ADD phone_number VARCHAR(15);
